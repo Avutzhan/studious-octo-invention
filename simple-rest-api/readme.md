@@ -21,3 +21,15 @@ Tutorial timecodes:
 * 31:15 - Слои абстракций
 * 33:00 - Service, разделение логики
 * 38:50 - Работа с файлами, FileService
+
+shell commands history
+
+Create project
+```shell
+npm init -y
+```
+
+Install Express
+```shell
+npm install express
+```
