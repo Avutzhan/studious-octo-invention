@@ -2,9 +2,10 @@ import express from 'express'
 import mongoose from 'mongoose'
 import router from './routes/router.js'
 import fileUpload from 'express-fileupload'
+import config from './configs/config.js'
 
 const PORT = 5000;
-const DB_URL = 'mongodb+srv://avutzhan:hotafo90@cluster0.pdx2a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const DB_URL = config.MONGO_URL;
 
 const app = express()
 
