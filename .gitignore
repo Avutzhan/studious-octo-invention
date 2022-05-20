@@ -1,2 +1,3 @@
 /.idea/*
 /simple-rest-api/node_modules
+/simple-rest-api/.env
